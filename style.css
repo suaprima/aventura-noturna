@@ -1,3 +1,34 @@
-<body>
+body{
+background-color: aqua;
+color: black;
 font-family: "Kalnia Glaze", serif;
-<body>
+display: flex;
+justify-content: center;
+align-items: center;
+height: 700px;
+margin: 0;
+}
+
+button{
+    background-color: black;
+    color: antiquewhite;
+    font-family: "Kalnia Glaze", serif;
+}
+
+.passo{
+    display: none;
+}
+
+.passo.ativo{
+    display: block;
+}
+
+main{
+    text-align: center;
+    max-width: 90%;
+}
+
+img{
+    max-width: 90%;
+}
+
